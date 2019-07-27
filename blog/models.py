@@ -2,7 +2,7 @@ from django.conf import settings
 from django.db import models
 from django.utils import timezone
 
-# Model / Oject
+# Model es el esqueleto / Oject es la instancia del modelo, ya contiene datos
 # models.Model means that is a Django Model, so that it should be saved in the database.
 # models.CharField – this is how you define text with a limited number of characters.
 # models.TextField – this is for long text without a limit. Sounds ideal for blog post content, right?
